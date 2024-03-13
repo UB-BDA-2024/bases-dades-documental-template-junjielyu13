@@ -25,4 +25,15 @@ class MongoDBClient:
     def clearDb(self,database):
         self.client.drop_database(database)
 
+    def insertOne(self, doc):
+        return self.collection.insert_one(doc)
+
+    def findOne(self, query={}):
+        return self.collection.find_one(query)
+
+    def deleteOne(self, query={}):
+        return self.collection.delete_one(query)
+
+    def findAllDocuments(self, query={}):
+        return self.collection.find(query)
 

@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from typing import Optional
 
 class Sensor(BaseModel):
     id: int
@@ -10,9 +11,9 @@ class Sensor(BaseModel):
     type: str
     mac_address: str
     battery_level: float
-    temperature: float
-    humidity: float
-    velocity: float
+    velocity: Optional[float]
+    temperature: Optional[float]
+    humidity: Optional[float]
     
     
     class Config:
@@ -30,8 +31,8 @@ class SensorCreate(BaseModel):
     firmware_version: str
 
 class SensorData(BaseModel):
-    velocity: float
-    temperature: float
-    humidity: float
+    velocity: Optional[float]
+    temperature: Optional[float]
+    humidity: Optional[float]
     battery_level: float
     last_seen: str
