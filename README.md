@@ -237,4 +237,3 @@ Cada pràctica té un qüestionari d'avaluació. Aquest qüestionari ens permet 
 
 
 
-
