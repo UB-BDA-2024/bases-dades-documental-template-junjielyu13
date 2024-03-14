@@ -235,5 +235,3 @@ Aquesta pràctica té una puntuació màxima de 10 punts. La puntuació es repar
 Cada pràctica té un qüestionari d'avaluació. Aquest qüestionari ens permet avaluar el coneixement teòric i de comprensió de la pràctica. És obligatori i forma part de l'avaluació continua de l'assignatura. Per contestar el qüestionari, has d'anar al campus virtual de l'assignatura i anar a la secció de qüestionaris.
  
 
-
-
